@@ -1,0 +1,8 @@
+2014-07-10 10:40:13,127-0700 0     INFO  [VerifiableProperties] (main:) Verifying properties
+2014-07-10 10:40:13,149-0700 22    INFO  [VerifiableProperties] (main:) Property metadata.broker.list is overridden to 127.0.0.1:9092
+2014-07-10 10:40:13,149-0700 22    INFO  [VerifiableProperties] (main:) Property request.required.acks is overridden to 1
+2014-07-10 10:40:13,151-0700 24    INFO  [VerifiableProperties] (main:) Property serializer.class is overridden to kafka.serializer.DefaultEncoder
+2014-07-10 10:40:13,449-0700 322   INFO  [ClientUtils$] (main:) Fetching metadata from broker id:0,host:127.0.0.1,port:9092 with correlation id 0 for 1 topic(s) Set(kafka-storm-hbase)
+2014-07-10 10:40:13,461-0700 334   INFO  [SyncProducer] (main:) Connected to 127.0.0.1:9092 for producing
+2014-07-10 10:40:13,489-0700 362   INFO  [SyncProducer] (main:) Disconnecting from 127.0.0.1:9092
+2014-07-10 10:40:13,526-0700 399   INFO  [SyncProducer] (main:) Connected to sandbox.hortonworks.com:9092 for producing
