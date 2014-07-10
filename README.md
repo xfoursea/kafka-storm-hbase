@@ -1,7 +1,7 @@
 kafka-storm-hbase
 =========================
 
-This is a proof-of-concept project to flow binary data (data structure: EmailAttachment.java) from Kafka to HBase via Storm. 
+This is a proof-of-concept project to flow binary data (data structure: com.hortonworks.kafkastormproc.common.EmailAttachment.java) from Kafka to HBase via Storm. 
 
 It is based on information provided in:
 
@@ -22,7 +22,7 @@ Prerequisite:
 
 ##Running the topologies on a storm cluster
 
-- ```torm jar kafka-storm-hbase-0.1.0-SNAPSHOT.jar com.hortonworks.kafkastormpoc.KafkaStormHBaseTopology 127.0.0.1:2181 kafka-storm-hbase 127.0.0.1```
+- ```storm jar kafka-storm-hbase-0.1.0-SNAPSHOT.jar com.hortonworks.kafkastormpoc.KafkaStormHBaseTopology 127.0.0.1:2181 kafka-storm-hbase 127.0.0.1```
 
 
 ##Producing data
